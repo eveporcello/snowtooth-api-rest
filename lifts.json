@@ -1,782 +1,778 @@
-{
-  "data": {
-    "allLifts": [
+[
+  {
+    "id": "astra-express",
+    "name": "Astra Express",
+    "status": "CLOSED",
+    "capacity": 3,
+    "night": false,
+    "elevationGain": 899,
+    "trailAccess": [
       {
-        "id": "astra-express",
-        "name": "Astra Express",
+        "id": "blue-bird",
+        "name": "Blue Bird",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": true,
+        "trees": false,
+        "night": false
+      },
+      {
+        "id": "ducks-revenge",
+        "name": "Duck's Revenge",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "ice-streak",
+        "name": "Ice Streak",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": false,
+        "trees": false,
+        "night": false
+      },
+      {
+        "id": "parachute",
+        "name": "Parachute",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": false,
+        "trees": false,
+        "night": false
+      },
+      {
+        "id": "goosebumps",
+        "name": "Goosebumps",
+        "status": "OPEN",
+        "difficulty": "advanced",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      }
+    ]
+  },
+  {
+    "id": "jazz-cat",
+    "name": "Jazz Cat",
+    "status": "OPEN",
+    "capacity": 2,
+    "night": false,
+    "elevationGain": 1230,
+    "trailAccess": [
+      {
+        "id": "goosebumps",
+        "name": "Goosebumps",
+        "status": "OPEN",
+        "difficulty": "advanced",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "river-run",
+        "name": "River Run",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "ducks-revenge",
+        "name": "Duck's Revenge",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "cape-cod",
+        "name": "Cape Cod",
         "status": "CLOSED",
-        "capacity": 3,
-        "night": false,
-        "elevationGain": 899,
-        "trailAccess": [
-          {
-            "id": "blue-bird",
-            "name": "Blue Bird",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": true,
-            "trees": false,
-            "night": false
-          },
-          {
-            "id": "ducks-revenge",
-            "name": "Duck's Revenge",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "ice-streak",
-            "name": "Ice Streak",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": false,
-            "trees": false,
-            "night": false
-          },
-          {
-            "id": "parachute",
-            "name": "Parachute",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": false,
-            "trees": false,
-            "night": false
-          },
-          {
-            "id": "goosebumps",
-            "name": "Goosebumps",
-            "status": "OPEN",
-            "difficulty": "advanced",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          }
-        ]
+        "difficulty": "intermediate",
+        "groomed": false,
+        "trees": true,
+        "night": false
       },
       {
-        "id": "jazz-cat",
-        "name": "Jazz Cat",
+        "id": "grandma",
+        "name": "Grandma",
         "status": "OPEN",
-        "capacity": 2,
-        "night": false,
-        "elevationGain": 1230,
-        "trailAccess": [
-          {
-            "id": "goosebumps",
-            "name": "Goosebumps",
-            "status": "OPEN",
-            "difficulty": "advanced",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "river-run",
-            "name": "River Run",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "ducks-revenge",
-            "name": "Duck's Revenge",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "cape-cod",
-            "name": "Cape Cod",
-            "status": "CLOSED",
-            "difficulty": "intermediate",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "grandma",
-            "name": "Grandma",
-            "status": "OPEN",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "wild-child",
-            "name": "Wild Child",
-            "status": "CLOSED",
-            "difficulty": "advanced",
-            "groomed": false,
-            "trees": false,
-            "night": false
-          },
-          {
-            "id": "old-witch",
-            "name": "Old Witch",
-            "status": "OPEN",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          }
-        ]
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
       },
       {
-        "id": "jolly-roger",
-        "name": "Jolly Roger",
-        "status": "OPEN",
-        "capacity": 6,
-        "night": true,
-        "elevationGain": 1350,
-        "trailAccess": [
-          {
-            "id": "dance-fight",
-            "name": "Dance Fight",
-            "status": "OPEN",
-            "difficulty": "beginner",
-            "groomed": true,
-            "trees": false,
-            "night": true
-          },
-          {
-            "id": "sneaky-pete",
-            "name": "Sneaky Pete",
-            "status": "OPEN",
-            "difficulty": "beginner",
-            "groomed": true,
-            "trees": false,
-            "night": true
-          },
-          {
-            "id": "bear-cave",
-            "name": "Bear Cave",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": true,
-            "trees": false,
-            "night": true
-          },
-          {
-            "id": "humpty-dumpty",
-            "name": "Humpty Dumpty",
-            "status": "CLOSED",
-            "difficulty": "intermediate",
-            "groomed": false,
-            "trees": false,
-            "night": false
-          },
-          {
-            "id": "meatball",
-            "name": "Meatball",
-            "status": "OPEN",
-            "difficulty": "beginner",
-            "groomed": true,
-            "trees": false,
-            "night": true
-          },
-          {
-            "id": "early-riser",
-            "name": "Early Riser",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": true,
-            "trees": false,
-            "night": true
-          },
-          {
-            "id": "sunset",
-            "name": "Sunset",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": true,
-            "trees": false,
-            "night": true
-          }
-        ]
-      },
-      {
-        "id": "neptune-rope",
-        "name": "Neptune Rope",
-        "status": "OPEN",
-        "capacity": 1,
-        "night": false,
-        "elevationGain": 50,
-        "trailAccess": [
-          {
-            "id": "home-run",
-            "name": "Home Run",
-            "status": "OPEN",
-            "difficulty": "beginner",
-            "groomed": true,
-            "trees": false,
-            "night": false
-          },
-          {
-            "id": "crosscut",
-            "name": "Crosscut",
-            "status": "OPEN",
-            "difficulty": "beginner",
-            "groomed": true,
-            "trees": false,
-            "night": false
-          }
-        ]
-      },
-      {
-        "id": "panorama",
-        "name": "Panorama",
-        "status": "HOLD",
-        "capacity": 8,
-        "night": false,
-        "elevationGain": 2800,
-        "trailAccess": [
-          {
-            "id": "ocean-breeze",
-            "name": "Ocean Breeze",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": false,
-            "trees": true,
-            "night": true
-          },
-          {
-            "id": "songstress",
-            "name": "Songstress",
-            "status": "CLOSED",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "mountain-run",
-            "name": "Mountain Run",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": true,
-            "trees": false,
-            "night": true
-          },
-          {
-            "id": "summit-saunter",
-            "name": "Summit Saunter",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": true,
-            "trees": false,
-            "night": true
-          },
-          {
-            "id": "hemmed-slacks",
-            "name": "Hemmed Slacks",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "davids-dive",
-            "name": "David's Dive",
-            "status": "CLOSED",
-            "difficulty": "advanced",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "quarry-chute",
-            "name": "Quarry Chute",
-            "status": "CLOSED",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "sunset",
-            "name": "Sunset",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": true,
-            "trees": false,
-            "night": true
-          }
-        ]
-      },
-      {
-        "id": "prickly-peak",
-        "name": "Prickly Peak",
-        "status": "OPEN",
-        "capacity": 3,
-        "night": false,
-        "elevationGain": 1700,
-        "trailAccess": [
-          {
-            "id": "crooked-chute",
-            "name": "Crooked Chute",
-            "status": "OPEN",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "marks-chute",
-            "name": "Mark's Chute",
-            "status": "OPEN",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "the-terrible-chute",
-            "name": "The Terrible Chute",
-            "status": "OPEN",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "magma-chute",
-            "name": "Magma Chute",
-            "status": "OPEN",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "saddleback-chute",
-            "name": "Saddleback Chute",
-            "status": "OPEN",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "omega-chute",
-            "name": "Omega Chute",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "adirondack-chute",
-            "name": "Adirondack Chute",
-            "status": "OPEN",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "chicken-out-traverse",
-            "name": "Chicken Out Traverse",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": true,
-            "trees": false,
-            "night": false
-          }
-        ]
-      },
-      {
-        "id": "snowtooth-express",
-        "name": "Snowtooth Express",
-        "status": "OPEN",
-        "capacity": 6,
-        "night": false,
-        "elevationGain": 1480,
-        "trailAccess": [
-          {
-            "id": "blue-streak",
-            "name": "Blue Streak",
-            "status": "OPEN",
-            "difficulty": "advanced",
-            "groomed": false,
-            "trees": false,
-            "night": false
-          },
-          {
-            "id": "hoya-saxa",
-            "name": "Hoya Saxa",
-            "status": "OPEN",
-            "difficulty": "advanced",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "michigan-ave",
-            "name": "Michigan Ave",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": true,
-            "trees": false,
-            "night": false
-          },
-          {
-            "id": "parker-downhill",
-            "name": "Parker Downhill",
-            "status": "OPEN",
-            "difficulty": "advanced",
-            "groomed": true,
-            "trees": false,
-            "night": false
-          },
-          {
-            "id": "wiggle-waggle",
-            "name": "Wiggle Waggle",
-            "status": "OPEN",
-            "difficulty": "beginner",
-            "groomed": true,
-            "trees": false,
-            "night": false
-          },
-          {
-            "id": "meow-face",
-            "name": "Meow Face",
-            "status": "OPEN",
-            "difficulty": "intermediate",
-            "groomed": true,
-            "trees": false,
-            "night": false
-          },
-          {
-            "id": "golden-ticket",
-            "name": "Golden Ticket",
-            "status": "OPEN",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          }
-        ]
-      },
-      {
-        "id": "summit",
-        "name": "Summit",
+        "id": "wild-child",
+        "name": "Wild Child",
         "status": "CLOSED",
-        "capacity": 6,
-        "night": false,
-        "elevationGain": 1480,
-        "trailAccess": [
-          {
-            "id": "golden-ticket",
-            "name": "Golden Ticket",
-            "status": "OPEN",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "summit-bowl",
-            "name": "Summit Bowl",
-            "status": "CLOSED",
-            "difficulty": "advanced",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "hangar-bowl",
-            "name": "Hangar Bowl",
-            "status": "CLOSED",
-            "difficulty": "intermediate",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "big-gully",
-            "name": "Big Gully",
-            "status": "CLOSED",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "bigger-gully",
-            "name": "Bigger Gully",
-            "status": "CLOSED",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "broadway-bowl",
-            "name": "Broadway Bowl",
-            "status": "CLOSED",
-            "difficulty": "intermediate",
-            "groomed": false,
-            "trees": false,
-            "night": false
-          },
-          {
-            "id": "fish-bowl",
-            "name": "Fish Bowl",
-            "status": "CLOSED",
-            "difficulty": "advanced",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          }
-        ]
+        "difficulty": "advanced",
+        "groomed": false,
+        "trees": false,
+        "night": false
       },
       {
-        "id": "wallys",
-        "name": "Wally's",
-        "status": "HOLD",
-        "capacity": 2,
-        "night": false,
-        "elevationGain": 820,
-        "trailAccess": [
-          {
-            "id": "buford",
-            "name": "Buford",
-            "status": "CLOSED",
-            "difficulty": "beginner",
-            "groomed": true,
-            "trees": false,
-            "night": true
-          },
-          {
-            "id": "slippy-stream",
-            "name": "Slippy Stream",
-            "status": "CLOSED",
-            "difficulty": "beginner",
-            "groomed": true,
-            "trees": false,
-            "night": true
-          },
-          {
-            "id": "peacock",
-            "name": "Peacock",
-            "status": "CLOSED",
-            "difficulty": "beginner",
-            "groomed": true,
-            "trees": false,
-            "night": true
-          },
-          {
-            "id": "fun-run",
-            "name": "Fun Run",
-            "status": "CLOSED",
-            "difficulty": "beginner",
-            "groomed": true,
-            "trees": false,
-            "night": true
-          },
-          {
-            "id": "sweet-treat",
-            "name": "Sweet Treat",
-            "status": "CLOSED",
-            "difficulty": "beginner",
-            "groomed": true,
-            "trees": false,
-            "night": true
-          },
-          {
-            "id": "stump-alley",
-            "name": "Stump Alley",
-            "status": "CLOSED",
-            "difficulty": "intermediate",
-            "groomed": true,
-            "trees": true,
-            "night": true
-          }
-        ]
+        "id": "old-witch",
+        "name": "Old Witch",
+        "status": "OPEN",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      }
+    ]
+  },
+  {
+    "id": "jolly-roger",
+    "name": "Jolly Roger",
+    "status": "OPEN",
+    "capacity": 6,
+    "night": true,
+    "elevationGain": 1350,
+    "trailAccess": [
+      {
+        "id": "dance-fight",
+        "name": "Dance Fight",
+        "status": "OPEN",
+        "difficulty": "beginner",
+        "groomed": true,
+        "trees": false,
+        "night": true
       },
       {
-        "id": "western-states",
-        "name": "Western States",
+        "id": "sneaky-pete",
+        "name": "Sneaky Pete",
+        "status": "OPEN",
+        "difficulty": "beginner",
+        "groomed": true,
+        "trees": false,
+        "night": true
+      },
+      {
+        "id": "bear-cave",
+        "name": "Bear Cave",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": true,
+        "trees": false,
+        "night": true
+      },
+      {
+        "id": "humpty-dumpty",
+        "name": "Humpty Dumpty",
         "status": "CLOSED",
-        "capacity": 6,
-        "night": false,
-        "elevationGain": 1330,
-        "trailAccess": [
-          {
-            "id": "centennial",
-            "name": "Centennial",
-            "status": "CLOSED",
-            "difficulty": "advanced",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "biennial",
-            "name": "Biennial",
-            "status": "CLOSED",
-            "difficulty": "advanced",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "millenial",
-            "name": "Millenial",
-            "status": "CLOSED",
-            "difficulty": "advanced",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "searcher",
-            "name": "Searcher",
-            "status": "CLOSED",
-            "difficulty": "intermediate",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "white-lightning",
-            "name": "White Lightning",
-            "status": "CLOSED",
-            "difficulty": "advanced",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "richards-return",
-            "name": "Richard's Return",
-            "status": "CLOSED",
-            "difficulty": "beginner",
-            "groomed": true,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "head-chutes-gate-a",
-            "name": "Head Chutes Gate A",
-            "status": "CLOSED",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "head-chutes-gate-b",
-            "name": "Head Chutes Gate B",
-            "status": "CLOSED",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "head-chutes-gate-c",
-            "name": "Head Chutes Gate C",
-            "status": "CLOSED",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          }
-        ]
+        "difficulty": "intermediate",
+        "groomed": false,
+        "trees": false,
+        "night": false
       },
       {
-        "id": "whirlybird",
-        "name": "Whirlybird",
-        "status": "HOLD",
-        "capacity": 2,
-        "night": false,
-        "elevationGain": 1003,
-        "trailAccess": [
-          {
-            "id": "bird-glade",
-            "name": "Bird Glade",
-            "status": "CLOSED",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "big-bird",
-            "name": "Big Bird",
-            "status": "CLOSED",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "roller-park",
-            "name": "Roller Park",
-            "status": "CLOSED",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "owl-glade",
-            "name": "Owl Glade",
-            "status": "CLOSED",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "whippersnapper-ridge",
-            "name": "Whippersnapper Ridge",
-            "status": "CLOSED",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "drop-in",
-            "name": "Drop In",
-            "status": "CLOSED",
-            "difficulty": "expert",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "mosh-pit",
-            "name": "Mosh Pit",
-            "status": "CLOSED",
-            "difficulty": "advanced",
-            "groomed": false,
-            "trees": true,
-            "night": false
-          },
-          {
-            "id": "richards-return",
-            "name": "Richard's Return",
-            "status": "CLOSED",
-            "difficulty": "beginner",
-            "groomed": true,
-            "trees": true,
-            "night": false
-          }
-        ]
+        "id": "meatball",
+        "name": "Meatball",
+        "status": "OPEN",
+        "difficulty": "beginner",
+        "groomed": true,
+        "trees": false,
+        "night": true
+      },
+      {
+        "id": "early-riser",
+        "name": "Early Riser",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": true,
+        "trees": false,
+        "night": true
+      },
+      {
+        "id": "sunset",
+        "name": "Sunset",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": true,
+        "trees": false,
+        "night": true
+      }
+    ]
+  },
+  {
+    "id": "neptune-rope",
+    "name": "Neptune Rope",
+    "status": "OPEN",
+    "capacity": 1,
+    "night": false,
+    "elevationGain": 50,
+    "trailAccess": [
+      {
+        "id": "home-run",
+        "name": "Home Run",
+        "status": "OPEN",
+        "difficulty": "beginner",
+        "groomed": true,
+        "trees": false,
+        "night": false
+      },
+      {
+        "id": "crosscut",
+        "name": "Crosscut",
+        "status": "OPEN",
+        "difficulty": "beginner",
+        "groomed": true,
+        "trees": false,
+        "night": false
+      }
+    ]
+  },
+  {
+    "id": "panorama",
+    "name": "Panorama",
+    "status": "HOLD",
+    "capacity": 8,
+    "night": false,
+    "elevationGain": 2800,
+    "trailAccess": [
+      {
+        "id": "ocean-breeze",
+        "name": "Ocean Breeze",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": false,
+        "trees": true,
+        "night": true
+      },
+      {
+        "id": "songstress",
+        "name": "Songstress",
+        "status": "CLOSED",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "mountain-run",
+        "name": "Mountain Run",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": true,
+        "trees": false,
+        "night": true
+      },
+      {
+        "id": "summit-saunter",
+        "name": "Summit Saunter",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": true,
+        "trees": false,
+        "night": true
+      },
+      {
+        "id": "hemmed-slacks",
+        "name": "Hemmed Slacks",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "davids-dive",
+        "name": "David's Dive",
+        "status": "CLOSED",
+        "difficulty": "advanced",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "quarry-chute",
+        "name": "Quarry Chute",
+        "status": "CLOSED",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "sunset",
+        "name": "Sunset",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": true,
+        "trees": false,
+        "night": true
+      }
+    ]
+  },
+  {
+    "id": "prickly-peak",
+    "name": "Prickly Peak",
+    "status": "OPEN",
+    "capacity": 3,
+    "night": false,
+    "elevationGain": 1700,
+    "trailAccess": [
+      {
+        "id": "crooked-chute",
+        "name": "Crooked Chute",
+        "status": "OPEN",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "marks-chute",
+        "name": "Mark's Chute",
+        "status": "OPEN",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "the-terrible-chute",
+        "name": "The Terrible Chute",
+        "status": "OPEN",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "magma-chute",
+        "name": "Magma Chute",
+        "status": "OPEN",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "saddleback-chute",
+        "name": "Saddleback Chute",
+        "status": "OPEN",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "omega-chute",
+        "name": "Omega Chute",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "adirondack-chute",
+        "name": "Adirondack Chute",
+        "status": "OPEN",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "chicken-out-traverse",
+        "name": "Chicken Out Traverse",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": true,
+        "trees": false,
+        "night": false
+      }
+    ]
+  },
+  {
+    "id": "snowtooth-express",
+    "name": "Snowtooth Express",
+    "status": "OPEN",
+    "capacity": 6,
+    "night": false,
+    "elevationGain": 1480,
+    "trailAccess": [
+      {
+        "id": "blue-streak",
+        "name": "Blue Streak",
+        "status": "OPEN",
+        "difficulty": "advanced",
+        "groomed": false,
+        "trees": false,
+        "night": false
+      },
+      {
+        "id": "hoya-saxa",
+        "name": "Hoya Saxa",
+        "status": "OPEN",
+        "difficulty": "advanced",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "michigan-ave",
+        "name": "Michigan Ave",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": true,
+        "trees": false,
+        "night": false
+      },
+      {
+        "id": "parker-downhill",
+        "name": "Parker Downhill",
+        "status": "OPEN",
+        "difficulty": "advanced",
+        "groomed": true,
+        "trees": false,
+        "night": false
+      },
+      {
+        "id": "wiggle-waggle",
+        "name": "Wiggle Waggle",
+        "status": "OPEN",
+        "difficulty": "beginner",
+        "groomed": true,
+        "trees": false,
+        "night": false
+      },
+      {
+        "id": "meow-face",
+        "name": "Meow Face",
+        "status": "OPEN",
+        "difficulty": "intermediate",
+        "groomed": true,
+        "trees": false,
+        "night": false
+      },
+      {
+        "id": "golden-ticket",
+        "name": "Golden Ticket",
+        "status": "OPEN",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      }
+    ]
+  },
+  {
+    "id": "summit",
+    "name": "Summit",
+    "status": "CLOSED",
+    "capacity": 6,
+    "night": false,
+    "elevationGain": 1480,
+    "trailAccess": [
+      {
+        "id": "golden-ticket",
+        "name": "Golden Ticket",
+        "status": "OPEN",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "summit-bowl",
+        "name": "Summit Bowl",
+        "status": "CLOSED",
+        "difficulty": "advanced",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "hangar-bowl",
+        "name": "Hangar Bowl",
+        "status": "CLOSED",
+        "difficulty": "intermediate",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "big-gully",
+        "name": "Big Gully",
+        "status": "CLOSED",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "bigger-gully",
+        "name": "Bigger Gully",
+        "status": "CLOSED",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "broadway-bowl",
+        "name": "Broadway Bowl",
+        "status": "CLOSED",
+        "difficulty": "intermediate",
+        "groomed": false,
+        "trees": false,
+        "night": false
+      },
+      {
+        "id": "fish-bowl",
+        "name": "Fish Bowl",
+        "status": "CLOSED",
+        "difficulty": "advanced",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      }
+    ]
+  },
+  {
+    "id": "wallys",
+    "name": "Wally's",
+    "status": "HOLD",
+    "capacity": 2,
+    "night": false,
+    "elevationGain": 820,
+    "trailAccess": [
+      {
+        "id": "buford",
+        "name": "Buford",
+        "status": "CLOSED",
+        "difficulty": "beginner",
+        "groomed": true,
+        "trees": false,
+        "night": true
+      },
+      {
+        "id": "slippy-stream",
+        "name": "Slippy Stream",
+        "status": "CLOSED",
+        "difficulty": "beginner",
+        "groomed": true,
+        "trees": false,
+        "night": true
+      },
+      {
+        "id": "peacock",
+        "name": "Peacock",
+        "status": "CLOSED",
+        "difficulty": "beginner",
+        "groomed": true,
+        "trees": false,
+        "night": true
+      },
+      {
+        "id": "fun-run",
+        "name": "Fun Run",
+        "status": "CLOSED",
+        "difficulty": "beginner",
+        "groomed": true,
+        "trees": false,
+        "night": true
+      },
+      {
+        "id": "sweet-treat",
+        "name": "Sweet Treat",
+        "status": "CLOSED",
+        "difficulty": "beginner",
+        "groomed": true,
+        "trees": false,
+        "night": true
+      },
+      {
+        "id": "stump-alley",
+        "name": "Stump Alley",
+        "status": "CLOSED",
+        "difficulty": "intermediate",
+        "groomed": true,
+        "trees": true,
+        "night": true
+      }
+    ]
+  },
+  {
+    "id": "western-states",
+    "name": "Western States",
+    "status": "CLOSED",
+    "capacity": 6,
+    "night": false,
+    "elevationGain": 1330,
+    "trailAccess": [
+      {
+        "id": "centennial",
+        "name": "Centennial",
+        "status": "CLOSED",
+        "difficulty": "advanced",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "biennial",
+        "name": "Biennial",
+        "status": "CLOSED",
+        "difficulty": "advanced",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "millenial",
+        "name": "Millenial",
+        "status": "CLOSED",
+        "difficulty": "advanced",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "searcher",
+        "name": "Searcher",
+        "status": "CLOSED",
+        "difficulty": "intermediate",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "white-lightning",
+        "name": "White Lightning",
+        "status": "CLOSED",
+        "difficulty": "advanced",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "richards-return",
+        "name": "Richard's Return",
+        "status": "CLOSED",
+        "difficulty": "beginner",
+        "groomed": true,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "head-chutes-gate-a",
+        "name": "Head Chutes Gate A",
+        "status": "CLOSED",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "head-chutes-gate-b",
+        "name": "Head Chutes Gate B",
+        "status": "CLOSED",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "head-chutes-gate-c",
+        "name": "Head Chutes Gate C",
+        "status": "CLOSED",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      }
+    ]
+  },
+  {
+    "id": "whirlybird",
+    "name": "Whirlybird",
+    "status": "HOLD",
+    "capacity": 2,
+    "night": false,
+    "elevationGain": 1003,
+    "trailAccess": [
+      {
+        "id": "bird-glade",
+        "name": "Bird Glade",
+        "status": "CLOSED",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "big-bird",
+        "name": "Big Bird",
+        "status": "CLOSED",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "roller-park",
+        "name": "Roller Park",
+        "status": "CLOSED",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "owl-glade",
+        "name": "Owl Glade",
+        "status": "CLOSED",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "whippersnapper-ridge",
+        "name": "Whippersnapper Ridge",
+        "status": "CLOSED",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "drop-in",
+        "name": "Drop In",
+        "status": "CLOSED",
+        "difficulty": "expert",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "mosh-pit",
+        "name": "Mosh Pit",
+        "status": "CLOSED",
+        "difficulty": "advanced",
+        "groomed": false,
+        "trees": true,
+        "night": false
+      },
+      {
+        "id": "richards-return",
+        "name": "Richard's Return",
+        "status": "CLOSED",
+        "difficulty": "beginner",
+        "groomed": true,
+        "trees": true,
+        "night": false
       }
     ]
   }
-}
+]
