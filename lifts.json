@@ -5,7 +5,7 @@
     "status": "CLOSED",
     "capacity": 3,
     "night": false,
-    "elevationGain": 899,
+    "elevationGain": 999,
     "trailAccess": [
       {
         "id": "blue-bird",
